@@ -1,0 +1,111 @@
+body{
+    background-color:rgba(238, 238, 238, 0.855);
+}
+.container{
+    background-color: rgb(25, 80, 85);
+    width: 40%;
+    margin:30px;
+    border:none;
+    padding:30px;
+    border-radius:15px;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    place-items:center;
+    border:2px solid white;
+    box-shadow: 5px 10px 20px 5px black;
+}
+h1{
+    color:rgb(0, 255, 195);
+    text-align: center;
+    
+}
+.form-group{
+    display:flex;
+    flex-direction: row;
+    margin:20px;
+    width: auto;
+}
+input{
+    width:310px;
+    height:40px;
+    border-radius: 5px;
+    border: 2px solid white;
+    margin-left: 40px;
+    
+}
+input::placeholder{
+  color: #5d5d5d; 
+  font-style: italic; 
+ 
+}
+button{
+    margin-left: 10px;
+    background-color: transparent;
+    color:white;
+    border-radius: 5px;
+    padding:10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    
+}
+button:hover{
+
+    margin-left: 10px;
+    background-color: rgb(0, 255, 221);
+    color:rgb(0, 0, 0);
+    border-radius: 5px;
+    padding:10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #000000;
+}
+.list{
+    margin-top: 465px;
+    margin-left: 570px;
+    
+
+}
+.list-items{
+    width:420px;
+    border-radius: 5px;
+    border: 2px solid white;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    height:40px;
+    background-color: rgb(57, 57, 57);
+    color:white;
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+
+}
+.list-items-icon{
+
+    padding-left: 7px;
+    padding-right:2px;
+    font-size: 25px;
+}
+
+#complete{
+    color: rgb(0, 255, 60);
+    cursor: pointer;
+}
+#edit{
+    color:yellow;
+    cursor: pointer;
+}
+#delete{
+    color:red;
+    cursor: pointer;
+}
+#list-item{
+
+    text-decoration: line-through;
+    text-decoration-color:#e8e8e8;
+    color:#898989;
+}
